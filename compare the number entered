@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        int num;
+        Scanner scan = new Scanner(System.in);
+        num= scan.nextInt();
+
+        if (num  > 10){
+            System.out.println("bigger than 10");
+        } else if (num < 10) {
+            System.out.println("smaller than 10");
+        }
+        else System.out.println("equal to 10");
+    }
+}
