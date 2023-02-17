@@ -16,7 +16,7 @@ public class Main {
         }
 
 if (a==1)
-    System.out.println("x is not prime");
-else  System.out.println("x is prime");
+    System.out.println(+x+" is not prime");
+else  System.out.println(+x+" is prime");
     }
 }
