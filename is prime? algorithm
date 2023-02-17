@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        int y=2;
+        int a=0;
+        while (x>y){
+
+            if (x%y ==0){
+                a=1;
+                break;
+            }
+            else y+=1;
+        }
+
+if (a==1)
+    System.out.println("x is not prime");
+else  System.out.println("x is prime");
+    }
+}
