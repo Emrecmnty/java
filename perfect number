@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        int y = 1;
+        int z = 0;
+        while (x / 2 > y) {
+
+            if (x % y == 0)
+                z += y;
+            y++;
+        }
+        if (y == z) System.out.println(x + " is perfect number ");
+        else System.out.println(x + " is not perfect number");
+
+
+    }
+}
