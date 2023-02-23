@@ -1,0 +1,29 @@
+
+public class calculator {
+
+
+    public static int summation(int x, int y) {
+        return x+y ;
+    }
+    public static int substraction(int x, int y){
+        return x-y;
+    }
+    public static int divition(int x, int y){
+        return x/y;
+    } public static int multiplation(int x, int y){
+        return x*y;
+    }
+
+}
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        calculator a =new calculator();
+        System.out.println(a.divition(5,2));
+        System.out.println(a.multiplation(5,1));
+        System.out.println(a.summation(5,1));
+        System.out.println(a.substraction(5,1));
+    }
+}
